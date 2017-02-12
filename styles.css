@@ -1,0 +1,461 @@
+@font-face
+{
+	font-family: waltograph;
+	src: url(fonts/waltograph42.ttf);
+}
+
+body
+{
+	background: #404040;
+	font-family: 'Josefin Sans', sans-serif;
+	margin: 0;
+}
+
+nav
+{
+	background-color: rgb(29,114,114);
+}
+
+nav ul 
+{
+	list-style-type: none;
+	text-align: center;
+	padding: 0;
+}
+
+nav li 
+{
+	display:inline-block;
+	padding: 10px 30px 5px 30px;
+	/*padding: 0px 30px;
+	font-family: waltograph;*/
+}
+
+nav li a
+{
+	color: white;
+	text-decoration: none;
+	font-size: 40px;
+}
+
+nav li a:hover
+{
+	color: #DFC24A;
+	text-decoration: underline;
+}
+
+.top
+{
+	background-color: #2E2E2E;
+	height: 100%;
+	overflow: hidden;
+	margin: 20px 0px;
+	padding: 25px 30px;
+}
+
+.about
+{
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+
+.about img
+{
+	float: left;
+	width: 300px;
+	border-radius: 300px;
+	display: inline-block;
+	margin-right: 50px;
+	margin-bottom: 20px;
+}
+
+.about h1
+{
+	color: #DFC24A;
+	font-family: waltograph;
+	font-size: 80px;
+	margin-top: 0;
+}
+
+.about p
+{
+	font-size: 25px;
+	width: 90%;
+}
+
+.clearfix
+{
+	clear: both;
+}
+
+#workSchool
+{
+	margin-top: 20px; 
+	height: 100%;
+	overflow: hidden;
+	background-color: #404040;
+	color: white;
+}
+
+#workSchool h2
+{
+	color: rgb(29,114,114);
+}
+
+#workSchool ul {
+	list-style: none;
+}
+
+.halfdiv
+{
+	float: left;
+	width: 45%;
+	margin: auto;
+	overflow: hidden;
+	padding: 20px 20px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.halfdiv h2
+{
+	color: white;
+	font-size: 40px;
+	margin-top: 0;
+}
+
+.halfdiv p
+{
+	color: #DFC24A;
+}
+
+.halfdiv h3
+{
+	color: #DFC24A;
+	font-weight: bolder;
+	margin: 0;
+	margin-bottom: 10px;
+	text-decoration: underline;
+}
+
+#midbutton
+{
+	text-align: center;
+	width: 100%;
+	background-color: #404040;
+}
+
+#resumebutton
+{
+	text-decoration: none;
+	font-size: 20px;
+	margin: 10px;
+	margin-bottom: 20px;
+	display: inline-block;
+	color: white;
+	background-color: #DFC24A;
+	font-weight: 600;
+	padding: 9px 16px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 0 0 rgba(0,0,0,0.15);
+}
+
+#resumebutton:hover
+{
+	opacity: .75;
+}
+
+#skills
+{
+	margin-top: 20px;
+	overflow: hidden;
+	background-color: rgb(29,114,114);
+	color: white;
+}
+
+#skills ul {
+	list-style: none;
+}
+
+#portfolio
+{
+	background-color: #2E2E2E;
+	height: 100%;
+	overflow: hidden;
+	color: white;
+	margin: 20px 0px;
+}
+
+#portfolio h2
+{
+	margin-top: 20px;
+	margin-bottom: 0;
+	font-size: 40px;
+	text-align: center;
+	color: #DFC24A;
+}
+#portfolio-one-liner
+{
+	margin: 20px;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+
+.button-group {
+	margin: 20px;
+}
+
+.button.is-checked, .button.is-selected {
+    color: rgb(29,114,114); /*color: white;*/
+	background-color: #DFC24A; /*background-color: #19F;*/
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    background-image: linear-gradient( hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.1) );
+	border-color: #222;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    cursor: pointer;
+	color: #DFC24A;
+	background-color: rgb(29,114,114); /*background-color: #F8F8F8;*/
+}
+
+.project
+{
+	float: left;
+	display: inline-block;
+	max-width: 33%;
+	width: 25%;
+	overflow: hidden;
+	border: 2px solid white;
+	border-radius: 10px;
+	margin: 40px;
+	padding: 5px;
+}
+
+.project a
+{
+	color: #DFC24A;
+}
+
+p.projectTitle 
+{
+	color: #DFC24A;
+}
+
+p.long 
+{
+	display: none;
+}
+p.short 
+{
+	display: block;
+}
+
+/* Footer Styles */
+footer
+{
+	padding: 10px;
+	max-width: 100%;
+	width: auto;
+	overflow: hidden;
+	background-color: rgb(29,114,114);
+	position: relative;
+	margin: 0 auto;
+}
+
+footer ul
+{
+	float: right;
+	padding-right: 10px;
+}
+
+footer li
+{
+	list-style: none;
+	display: inline-block;
+}
+
+footer a:hover
+{
+	opacity: .75;
+}
+
+footer p
+{
+	font-size: 20px;
+	color: white;
+	display: inline-block;
+}
+
+footer img
+{
+	float: left;
+}
+
+p.email
+{
+	float: left;
+	padding-left: 10px;
+	/*margin-bottom: 0;*/
+}
+
+p.copyright
+{
+	float: left;
+	padding-left: 10px;
+	/*margin-bottom: 0;*/
+}
+
+footer a
+{
+	text-decoration: none;
+	color: #DFC24A;
+	text-shadow: 0px 2px 3px rgba(43,43,43,0.15);
+}
+
+ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1127px) {
+	/*Make projects go to 2 per page*/
+	.project
+	{
+		max-width: 49%;
+		width: 40%;
+	}
+}
+
+@media only screen and (max-width : 1002px) {
+	/*Fix footer*/
+	p.email
+	{
+		float: left;
+	}
+	p.copyright
+	{
+		float: right;
+		padding-right: 10px;
+	}
+	footer ul
+	{
+		margin: 0 auto;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 939px) {
+	.project
+	{
+		max-width: 49%;
+		width: 38%;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 800px) {
+	/*Make projects down to 1 per page and Make halfdiv go to 100%*/
+	.about p
+	{
+		width: 100%;
+	}
+	#workSchool
+	{
+		width: 100%;
+	}
+	.halfdiv
+	{
+		width: 100%;
+		padding: 20px 0px;
+	}
+	.project
+	{
+		max-width: 100%;
+		width: 75%;
+		margin-left: 80px
+	}
+	p.long 
+	{
+		display: block;
+	}
+	p.short 
+	{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 725px) {
+	.project
+	{
+		max-width: 100%;
+		width: 75%;
+		margin-left: 70px
+	}
+	nav li 
+	{
+		padding: 10px 20px 5px 20px;
+	}
+}
+
+ @media only screen and (max-width : 598px) {
+	/*Fix footer*/
+	p.email
+	{
+		float: left;
+	}
+	p.copyright
+	{
+		float: left;
+	}
+	footer ul
+	{
+		float: left;
+	}
+	.project
+	{
+		margin-left: 60px
+	}
+}
+
+@media only screen and (max-width: 530px) {
+	.project
+	{
+		margin-left: 50px
+	}
+	nav li 
+	{
+		padding: 10px 15px 5px 15px;
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	.project
+	{
+		max-width: 100%;
+		width: 75%;
+	}
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    .project
+	{
+		max-width: 100%;
+		width: 75%;
+	}
+	nav li 
+	{
+		padding: 10px 10px 5px 10px;
+	}
+}
