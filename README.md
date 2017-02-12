@@ -6,7 +6,7 @@ Personal website that will serve as a showcase for my projects and past work, in
 
 ## Usage
 
-Visit http://cwalk.github.io
+Visit https://cwalk.github.io
 
 ## Development
 
