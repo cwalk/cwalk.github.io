@@ -12,9 +12,7 @@ Visit https://cwalk.github.io
 
 Copy the project using `git clone  https://github.com/cwalk/cwalk.github.io`
 
-Navigate to the directory: `cd cwalk.github.io/`
-
-Open the `index.html` file in a browser. This highlights some background information about my education, professional experience, skillset, and projects. Project section includes YouTube videos, and links to the code on GitHub.
+Navigate to the directory and open the `index.html` file in a browser. This highlights some background information about my education, professional experience, skillset, and projects. Project section includes YouTube videos, and links to the code on GitHub.
 
 ## YouTube
 
